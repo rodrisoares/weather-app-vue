@@ -195,7 +195,7 @@ export default {
 
         const timeOfDay = data.weather[0].icon;
 
-        //verificar se é dia
+        //verificar se é manhã ou noite
         if (timeOfDay.includes("n")) {
           this.isDay = false;
         } else {
